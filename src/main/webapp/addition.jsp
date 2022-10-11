@@ -11,7 +11,7 @@
 	int num1= Integer.parseInt(request.getParameter("number1")); //Scriptlets can be opened anuywhere;
 	int num2= Integer.parseInt(request.getParameter("number2")); // request is an implict object
 %>
-Sum of <%=num1 %> and <%=num2 %> is <%=num1+num2 %>
+Sum of <%=num1 %> and <%=num2 %> is <%=num1+num2 %>    <!-- expressions -->
 
 </body>
 </html>
